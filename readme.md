@@ -33,3 +33,10 @@ To set up a Git alias for running the `git-commit-generator`, follow these steps
 ## Usage
 
 Once the alias is set up, you can use `git commit-gen` to run the Git Commit Generator tool.
+
+## Copyright
+
+This project uses resources from the following:
+
+- [Git Commit Generator Script by Tavernari](https://gist.githubusercontent.com/Tavernari/b88680e71c281cfcdd38f46bdb164fee/raw/git-gen-commit)
+- [Ollama Git Commit Message Model by Tavernari](https://ollama.com/tavernari/git-commit-message)
