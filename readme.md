@@ -6,8 +6,34 @@ Before setting up the Git Commit Generator, ensure you have the following instal
 
 1. **Ollama**:  
    Ollama is required for this tool. To install it, follow the instructions on the [official Ollama website](https://ollama.com).
+2. **Go Programming Language**:  
+   The Go compiler is required to build the tool. You can download it from the [official Go website](https://golang.org/dl/).
+3. **Git**:  
+   Git is required for version control integration. You can download it from the [official Git website](https://git-scm.com/downloads).
 
 ## Installation Guide
+
+### Automatic Installation
+
+#### Windows
+1. Run the provided PowerShell installation script:
+   ```powershell
+   .\install.ps1
+   ```
+
+#### Linux/macOS
+1. Run the provided shell script:
+   ```bash
+   ./install.sh
+   ```
+
+The installation scripts will:
+- Check and verify required dependencies
+- Build and install the Go executable
+- Pull the specified Ollama models
+- Configure the git alias automatically
+
+### Manual Installation
 
 To set up a Git alias for running the `git-commit-generator`, follow these steps:
 
@@ -33,6 +59,10 @@ To set up a Git alias for running the `git-commit-generator`, follow these steps
 ## Usage
 
 Once the alias is set up, you can use `git commit-gen` to run the Git Commit Generator tool.
+
+1. Stage your changes using `git add <files>`
+2. Run `git commit-gen`
+3. Follow the prompts to generate and use your commit message
 
 ## Copyright
 
